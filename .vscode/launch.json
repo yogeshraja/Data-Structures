@@ -1,0 +1,37 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch ArrayListProgram",
+            "request": "launch",
+            "mainClass": "ArrayListProgram",
+            "projectName": "DATA STRUCTURES_2cd35313"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - aa",
+            "request": "launch",
+            "mainClass": "aa",
+            "projectName": "DATA STRUCTURES_2cd35313"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LinkedLL",
+            "request": "launch",
+            "mainClass": "LinkedLL",
+            "projectName": "DATA STRUCTURES_2cd35313"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
