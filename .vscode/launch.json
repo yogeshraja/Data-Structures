@@ -6,32 +6,38 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch ArrayListProgram",
+            "name": "Launch IncreasingDecreasing",
             "request": "launch",
-            "mainClass": "ArrayListProgram",
-            "projectName": "DATA STRUCTURES_2cd35313"
+            "mainClass": "IncreasingDecreasing",
+            "projectName": "DATA STRUCTURES_ded04a1c"
         },
         {
             "type": "java",
-            "name": "CodeLens (Launch) - aa",
+            "name": "Launch BTape",
             "request": "launch",
-            "mainClass": "aa",
-            "projectName": "DATA STRUCTURES_2cd35313"
+            "mainClass": "BTape",
+            "projectName": "DATA STRUCTURES_ded04a1c"
         },
         {
-            "type": "java",
-            "name": "CodeLens (Launch) - LinkedLL",
+            "name": "g++.exe - Build and debug active file",
+            "type": "cppdbg",
             "request": "launch",
-            "mainClass": "LinkedLL",
-            "projectName": "DATA STRUCTURES_2cd35313"
-        },
-        {
-            "type": "lldb",
-            "request": "launch",
-            "name": "Debug",
             "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
             "args": [],
-            "cwd": "${workspaceFolder}"
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "C/C++: g++.exe build active file"
         }
     ]
 }

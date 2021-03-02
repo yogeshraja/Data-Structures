@@ -11,14 +11,6 @@ struct stack
 
 typedef struct stack *node;
 
-// node newNode(char x)
-// {
-// 	node newnode;
-// 	newnode=(node)malloc(sizeof(node));
-// 	newnode->data=x;
-// 	newnode->next=NULL;
-// }
-
 node top=NULL;
 
 void display()

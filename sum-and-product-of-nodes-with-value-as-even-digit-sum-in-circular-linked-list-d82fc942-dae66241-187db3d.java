@@ -67,5 +67,6 @@ class CircularLL {
             list.insert(var);
        }
        list.sumProduct();
+       sc.close();
     }
 }
