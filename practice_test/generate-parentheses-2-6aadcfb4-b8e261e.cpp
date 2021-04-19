@@ -33,7 +33,7 @@ int main()
 		for (auto i : mp)
 		{
 
-			cout << str << " " << i << endl;
+			cout << i << endl;
 		}
 	}
 }

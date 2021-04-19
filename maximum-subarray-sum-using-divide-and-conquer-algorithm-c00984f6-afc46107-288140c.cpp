@@ -24,4 +24,4 @@ int main()
 		cin>>a[i];
 	}
 	cout<<"Maximum contiguous sum is "<<findSum(a,0,n-1,n);
-}
+}.........

@@ -16,7 +16,6 @@ int main()
 		{
 			string sub1=str.substr(i,j);
 			string sub2=sub1;
-			// cout<<sub1<<endl;
 			reverse(sub2.begin(),sub2.end());
 			if(sub2==sub1)
 			{

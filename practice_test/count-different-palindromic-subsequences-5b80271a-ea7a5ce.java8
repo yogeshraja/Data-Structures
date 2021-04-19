@@ -1,0 +1,43 @@
+
+import java.util.*;
+
+class TestClass {
+
+    static HashSet<String> hst=new HashSet<>();
+
+    static boolean isPalindrome(String s)
+    {
+        int low=0,high=s.length()-1;
+        while(low<high)
+        {
+            if(s.charAt(low)!=s.charAt(high))
+                return false;
+            low++;
+            high--;
+        }
+        return true;
+    }
+
+    static void countPalindromes(String s,int l,int r,String out)
+    {
+        if(r>=0 && r<s.length()) return;
+        if(isPalindrome(out))
+        {
+            hst.add(out);
+        }
+        countPalindromes(s,l,r-1,out+s.charAt(r));
+        countPalindromes(s,l,r-2,out+s.charAt(r));
+    }
+    public static void main(String args[] ) throws Exception {
+
+        Scanner sc = new Scanner(System.in);
+        String str=sc.nextLine();
+        int n=str.length();
+        for(int i=0;i<n;i++)
+        {
+            countPalindromes(str,i,n-1,"");
+        }
+        System.out.println(hst.size());
+        sc.close();
+    }
+}

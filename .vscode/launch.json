@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch count_duplicates",
+            "request": "launch",
+            "mainClass": "count_duplicates",
+            "projectName": "DATA STRUCTURES_ded04a1c"
+        },
+        {
+            "type": "java",
+            "name": "Launch oddsandevens",
+            "request": "launch",
+            "mainClass": "oddsandevens",
+            "projectName": "DATA STRUCTURES_ded04a1c"
+        },
+        {
+            "type": "java",
             "name": "Launch IncreasingDecreasing",
             "request": "launch",
             "mainClass": "IncreasingDecreasing",

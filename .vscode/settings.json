@@ -13,5 +13,8 @@
         "regex": "cpp",
         "valarray": "cpp",
         "iostream": "cpp"
-    }
+    },
+    "editor.fontSize": 16,
+    "files.autoSave": "onFocusChange",
+    "editor.fontFamily": "Monaco,Menlo,Consolas,\"Droid Sans Mono\",Inconsolata,\"Courier New\" ,monospace"
 }
