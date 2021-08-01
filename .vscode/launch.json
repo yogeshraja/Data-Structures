@@ -6,44 +6,29 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch count_duplicates",
+            "name": "Launch maximum_cholocates_in_a_box",
             "request": "launch",
-            "mainClass": "count_duplicates",
-            "projectName": "DATA STRUCTURES_ded04a1c"
+            "mainClass": "maximum_cholocates_in_a_box",
+            "projectName": "DATA STRUCTURES_dd11759"
         },
         {
             "type": "java",
-            "name": "Launch oddsandevens",
+            "name": "Launch difference",
             "request": "launch",
-            "mainClass": "oddsandevens",
-            "projectName": "DATA STRUCTURES_ded04a1c"
+            "mainClass": "difference",
+            "projectName": "DATA STRUCTURES_dd11759"
         },
         {
-            "type": "java",
-            "name": "Launch IncreasingDecreasing",
-            "request": "launch",
-            "mainClass": "IncreasingDecreasing",
-            "projectName": "DATA STRUCTURES_ded04a1c"
-        },
-        {
-            "type": "java",
-            "name": "Launch BTape",
-            "request": "launch",
-            "mainClass": "BTape",
-            "projectName": "DATA STRUCTURES_ded04a1c"
-        },
-        {
-            "name": "g++.exe - Build and debug active file",
+            "name": "g++ - Build and debug active file",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "${workspaceFolder}",
+            "cwd": "${fileDirname}",
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
-            "miDebuggerPath": "C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\gdb.exe",
             "setupCommands": [
                 {
                     "description": "Enable pretty-printing for gdb",
@@ -51,7 +36,8 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "C/C++: g++.exe build active file"
+            "preLaunchTask": "C/C++: g++ build active file",
+            "miDebuggerPath": "/bin/gdb"
         }
     ]
 }
