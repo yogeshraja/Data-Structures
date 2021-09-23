@@ -1,43 +1,50 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch UserMainCode",
+      "request": "launch",
+      "mainClass": "UserMainCode",
+      "projectName": "DATA STRUCTURES_dd11759"
+    },
+    {
+      "type": "java",
+      "name": "Launch maximum_cholocates_in_a_box",
+      "request": "launch",
+      "mainClass": "maximum_cholocates_in_a_box",
+      "projectName": "DATA STRUCTURES_dd11759"
+    },
+    {
+      "type": "java",
+      "name": "Launch difference",
+      "request": "launch",
+      "mainClass": "difference",
+      "projectName": "DATA STRUCTURES_dd11759"
+    },
+    {
+      "name": "g++ - Build and debug active file",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}/${fileBasenameNoExtension}",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "setupCommands": [
         {
-            "type": "java",
-            "name": "Launch maximum_cholocates_in_a_box",
-            "request": "launch",
-            "mainClass": "maximum_cholocates_in_a_box",
-            "projectName": "DATA STRUCTURES_dd11759"
-        },
-        {
-            "type": "java",
-            "name": "Launch difference",
-            "request": "launch",
-            "mainClass": "difference",
-            "projectName": "DATA STRUCTURES_dd11759"
-        },
-        {
-            "name": "g++ - Build and debug active file",
-            "type": "cppdbg",
-            "request": "launch",
-            "program": "${fileDirname}/${fileBasenameNoExtension}",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "${fileDirname}",
-            "environment": [],
-            "externalConsole": false,
-            "MIMode": "gdb",
-            "setupCommands": [
-                {
-                    "description": "Enable pretty-printing for gdb",
-                    "text": "-enable-pretty-printing",
-                    "ignoreFailures": true
-                }
-            ],
-            "preLaunchTask": "C/C++: g++ build active file",
-            "miDebuggerPath": "/bin/gdb"
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
         }
-    ]
+      ],
+      "preLaunchTask": "C/C++: g++ build active file",
+      "miDebuggerPath": "/bin/gdb"
+    }
+  ]
 }
